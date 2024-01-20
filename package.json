@@ -7,14 +7,18 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "link-react": "^3.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-pdf": "^7.7.0",
-    "react-router-dom": "^6.21.0"
+    "react-router-dom": "^6.21.0",
+    "private": true,
+    "homepage": "https:/.huayezhan/github.io/webapp1"
   },
   "devDependencies": {
     "@types/react": "^18.2.37",
@@ -26,4 +30,5 @@
     "eslint-plugin-react-refresh": "^0.4.4",
     "vite": "^5.0.0"
   }
+  
 }
