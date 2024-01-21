@@ -12,11 +12,11 @@ const MainRouter = () => {
                 <Layout/>
                 <Routes>
                         
-                        <Route exact path="/" element={<Home />} />
-                        <Route exact path="/about" element={<About />} />
-                        <Route exact path="/services" element={<Services />} />
-                        <Route exact path="/project" element={<Project />} />
-                        <Route exact path="/contact" element={<Contact />} />
+                        <Route exact path="/webapp1/home" element={<Home />} />
+                        <Route exact path="/webapp1/about" element={<About />} />
+                        <Route exact path="/webapp1/services" element={<Services />} />
+                        <Route exact path="/webapp1/project" element={<Project />} />
+                        <Route exact path="/webapp1/contact" element={<Contact />} />
                         
                 </Routes>
         </div>
