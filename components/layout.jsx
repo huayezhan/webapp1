@@ -8,7 +8,7 @@ export default function Layout() {
       <img src={logo}  height = "100px"/>
       <h1>Howard's Portfolio</h1>
       <nav>
-        <Link to="/webapp1">Home</Link> | <Link to="/webapp1/about">About Me</Link> | <Link to="/webapp1/services">Services</Link> | <Link to="/webapp1/project">Project</Link> | <Link to="/webapp1/contact">Contact Me</Link> 
+        <Link to="/webapp1/home">Home</Link> | <Link to="/webapp1/about">About Me</Link> | <Link to="/webapp1/services">Services</Link> | <Link to="/webapp1/project">Project</Link> | <Link to="/webapp1/contact">Contact Me</Link> 
       </nav>
          <br/>
       <hr/>
