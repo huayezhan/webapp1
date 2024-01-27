@@ -1,3 +1,8 @@
+/*
+student name: huaye zhan
+student ID: 301324797
+date:2024/1/22
+*/ 
 import React from 'react';
 import { Link } from 'react-router-dom';
 import logo from '../src/logo.jpg'

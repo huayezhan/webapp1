@@ -1,3 +1,8 @@
+/*
+student name: huaye zhan
+student ID: 301324797
+date:2024/1/22
+*/ 
 import logo from './logo.jpg'
 import project1 from './project1.jpg'
 import project2 from './project2.jpg'
